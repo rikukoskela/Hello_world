@@ -3,4 +3,6 @@ cd harjoitus-titetovarasto
 echo 'print("Hello World!")' > hello_world.py
 git add hello_world.py
 git commit -m "Lisää hello_world.py tiedosto"
+git remote add origin https://github.com/rikukoskela/Hello_world.git
+git push -u origin master
 python3.9 hello_world.py
