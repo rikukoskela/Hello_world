@@ -1,0 +1,6 @@
+git init harjoitus-tietovarasto
+cd harjoitus-titetovarasto
+echo 'print("Hello World!")' > hello_world.py
+git add hello_world.py
+git commit -m "Lisää hello_world.py tiedosto"
+python3.9 hello_world.py
